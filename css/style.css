@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/home/nipatil/Documents/task1/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    width:100%;
+    height:15vh;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    font-family: sans-serif;
+}
+
+.logo{
+    width:400px;
+    cursor:pointer;
+}
+
+
+nav{
+    flex:1;
+    padding-left: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin: 0px 20px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu-right{
+    text-align: right;
+}
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 980px){
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
